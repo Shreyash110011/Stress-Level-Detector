@@ -44,8 +44,4 @@ elif (page == "Data Info"):
 else:
     Tabs[page].app()
 
-hide_github_icon = """
-#GithubIcon {
-  visibility: hidden;
-}
-"""
+
