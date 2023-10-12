@@ -43,3 +43,9 @@ elif (page == "Data Info"):
     Tabs[page].app(df)
 else:
     Tabs[page].app()
+
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
