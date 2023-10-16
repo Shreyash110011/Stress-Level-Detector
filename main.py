@@ -9,6 +9,12 @@ from web_functions import load_data
 # Import pages
 from Tabs import home, data, predict, visualise
 
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 # Configure the app
 st.set_page_config(
     page_title = 'Stress Level Detector',
